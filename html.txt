@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Influencer Products</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <div class="container navbar">
+
+            <div class="logo">
+                Influencer products
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Sign up</a>
+                <a href="#">Log In</a>
+
+                <a href="#" class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+        <div class="container hero-container">
+
+            <div class="hero-content">
+
+                <h1>
+                    Start your Journey as<br>
+                    Influencer
+                </h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+                    <br>
+                    vestibulum sed scelerisque eros. Lectus faucibus.
+                </p>
+
+                <a href="#" class="prebook-btn">
+                    Prebook now
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="camera-circle"></div>
+
+                <img src="images/camera.png" alt="Camera">
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= BRANDS ================= -->
+
+    <section class="brands">
+
+        <div class="container brand-container">
+
+            <div class="brand">
+                <img src="images/alibaba.png" alt="Alibaba">
+            </div>
+
+            <div class="brand">
+                <img src="images/amazon.png" alt="Amazon">
+            </div>
+
+            <div class="brand">
+                <img src="images/daraz.png" alt="Daraz">
+            </div>
+
+            <div class="brand">
+                <img src="images/ebay.png" alt="Ebay">
+            </div>
+
+            <div class="brand">
+                <img src="images/rakuten.png" alt="Rakuten">
+            </div>
+
+            <div class="brand">
+                <img src="images/walmart.png" alt="Walmart">
+            </div>
+
+            <div class="brand">
+                <img src="images/target.png" alt="Target">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>
