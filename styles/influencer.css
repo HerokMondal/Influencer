@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shard styals */
+    .display-flex{
+        display: flex;
+    }
+    .text-color{
+        color: #3A3A3A;
+    }
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .prebook-btn{
+        /* display: inline-flex; */
+        align-items: center;
+         gap: 14px;
+         padding: 12px 24px;
+         border: none;
+        border-radius: 25px;
+        background-color: #E02C6D;
+        font-size: 14px;
+    font-weight: 600;
+
+    }
+
+    /* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 34px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    
+    
+}
+
+#nav-menu a{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.navbar, .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
