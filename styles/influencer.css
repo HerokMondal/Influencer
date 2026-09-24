@@ -31,9 +31,15 @@
         background-color: #E02C6D;
         font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 
     }
-
+    /* main styal */
+    header{
+        /* background: url("../images/Circle\ design.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right; */
+    }
     /* navbar */
 .navbar{
     justify-content: space-between;
@@ -62,9 +68,176 @@
     font-size: 1rem;
 }
 
-.navbar, .hero{
+.navbar, #hero{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#hero{
+    /* border: 1px solid red; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+
+    background: url("../images/Circle\ design.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+}
+
+#hero .hero-content{
+    max-width: 582px;
+}
+#hero .hero-content h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#hero .hero-content p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    vertical-align: middle;
+}
+
+#hero .hero-image img{
+    max-width: 440px;
+    
+}
+
+/* sponsor related style */
+.our-sposponsor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.sponsor-companis{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+/* Popular Collection */
+.popular-collection{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* align-items: center; */
+}
+
+.popular-collection .section-tite{
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* card  */
+.card-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 24px;
+    
+}
+.card{
+    /* border: 1px solid red; */
+    width: 330px;
+    height: 476px;
+    margin: 0 ato;
+    /* padding-top: 14px; */
+    /* padding: 14px 14px 16px ;  */
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
+    align-items: center;
+    justify-content: center;
+
+    /* transition: 0.3s; */
+}
+
+.card .card-icon{
+    width: 300px;
+    width: 200px;
+    display: block;
+
+    /* object-fit: cover; */
+
+    border-radius: 4px;
+
+    margin-bottom: 12px;
+}
+
+.card .card-name{
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+.card .card-price{
+    /* font-weight: ;? */
+    font-size: 1.5rem;
+    line-height: 100%;
+    margin-bottom: 6px;
+}
+.card .rating{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+.card .card-info{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 143%;
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-links,
+    #hero{
+        flex-direction: column;
+    }
+
+    .sponsor-companis,
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card-container{
+        justify-items: center;
+    }
+    .sponsor-companis{
+        justify-items: center;
+        gap: 50px;
+    }
+    #hero{
+        text-align: center;
+    }
+
+    .hero-image{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+     #hero{
+        grid-template-columns: 1fr;
+     }
+
+    .sponsor-companis{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        justify-items: center;
+
+}
+.card-container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+}
+   
+
+
+
 
 

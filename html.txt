@@ -1,129 +1,206 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="popular-collection">
 
-    <title>Influencer Products</title>
+    <div class="container">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <h2 class="section-title">Popular Collection</h2>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <div class="product-grid">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+            <!-- Card 01 -->
+            <div class="product-card">
+                <img src="images/tripod.jpg" alt="Flex Tripod">
 
-<body>
+                <h3>Flex Tripod</h3>
 
-    <!-- ================= HEADER ================= -->
+                <p class="price">$50.48</p>
 
-    <header class="header">
-        <div class="container navbar">
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
 
-            <div class="logo">
-                Influencer products
-            </div>
-
-            <nav class="nav-menu">
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-                <a href="#">Sign up</a>
-                <a href="#">Log In</a>
-
-                <a href="#" class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-
-                <a href="#" class="cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>
-            </nav>
-
-        </div>
-    </header>
-
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero">
-        <div class="container hero-container">
-
-            <div class="hero-content">
-
-                <h1>
-                    Start your Journey as<br>
-                    Influencer
-                </h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
-                    <br>
-                    vestibulum sed scelerisque eros. Lectus faucibus.
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
                 </p>
-
-                <a href="#" class="prebook-btn">
-                    Prebook now
-                    <span>→</span>
-                </a>
-
             </div>
 
 
-            <div class="hero-image">
+            <!-- Card 02 -->
+            <div class="product-card">
+                <img src="images/microphone.jpg" alt="Microphone">
 
-                <div class="camera-circle"></div>
+                <h3>microphone</h3>
 
-                <img src="images/camera.png" alt="Camera">
+                <p class="price">$120.25</p>
 
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 03 -->
+            <div class="product-card">
+                <img src="images/airbuds.jpg" alt="Airbuds">
+
+                <h3>Airbuds</h3>
+
+                <p class="price">$100.00</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 04 -->
+            <div class="product-card">
+                <img src="images/drone.jpg" alt="Drone">
+
+                <h3>Drone</h3>
+
+                <p class="price">$980.25</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 05 -->
+            <div class="product-card">
+                <img src="images/light-setup.jpg" alt="Light Setup">
+
+                <h3>Light Setup</h3>
+
+                <p class="price">$1200.00</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 06 -->
+            <div class="product-card">
+                <img src="images/photoshoot.jpg" alt="Photoshoot set">
+
+                <h3>Photoshoot set</h3>
+
+                <p class="price">$820.40</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 07 -->
+            <div class="product-card">
+                <img src="images/vlogging-camera.jpg" alt="Vlogging Camera">
+
+                <h3>Vlogging Camera</h3>
+
+                <p class="price">$1800.80</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 08 -->
+            <div class="product-card">
+                <img src="images/green-screen.jpg" alt="Green Screen">
+
+                <h3>Green Screen</h3>
+
+                <p class="price">$25.48</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
+            </div>
+
+
+            <!-- Card 09 -->
+            <div class="product-card">
+                <img src="images/action-camera.jpg" alt="Action Camera">
+
+                <h3>Action Camera</h3>
+
+                <p class="price">$380.00</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.99</small>
+                </div>
+
+                <p class="info">
+                    Worldwide shifting<br>
+                    available<br>
+                    Buyers protection possible!
+                </p>
             </div>
 
         </div>
-    </section>
 
 
-    <!-- ================= BRANDS ================= -->
-
-    <section class="brands">
-
-        <div class="container brand-container">
-
-            <div class="brand">
-                <img src="images/alibaba.png" alt="Alibaba">
-            </div>
-
-            <div class="brand">
-                <img src="images/amazon.png" alt="Amazon">
-            </div>
-
-            <div class="brand">
-                <img src="images/daraz.png" alt="Daraz">
-            </div>
-
-            <div class="brand">
-                <img src="images/ebay.png" alt="Ebay">
-            </div>
-
-            <div class="brand">
-                <img src="images/rakuten.png" alt="Rakuten">
-            </div>
-
-            <div class="brand">
-                <img src="images/walmart.png" alt="Walmart">
-            </div>
-
-            <div class="brand">
-                <img src="images/target.png" alt="Target">
-            </div>
-
+        <div class="see-more">
+            <a href="#">See More <span>→</span></a>
         </div>
 
-    </section>
+    </div>
 
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/your-kit-id.js"
-            crossorigin="anonymous"></script>
-
-</body>
-</html>
+</section>
